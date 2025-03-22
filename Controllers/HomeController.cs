@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using melyman95.github.io.Models;
+using ParadigmPetProfessionals.Models;
 
-namespace melyman95.github.io.Controllers;
+namespace ParadigmPetProfessionals.Controllers;
 
 public class HomeController : Controller
 {
@@ -18,7 +18,22 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult Dogs()
+    {
+        return View();
+    }
+
+    public IActionResult Cats()
+    {
+        return View();
+    }
+
+    public IActionResult Fish()
+    {
+        return View();
+    }
+
+    public IActionResult Contact()
     {
         return View();
     }

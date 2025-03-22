@@ -1,4 +1,10 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿document.getElementById("fetchButton").addEventListener("click", function () {
+    let query = document.getElementById("fetchInput").value.trim();
 
-// Write your JavaScript code.
+    if (query) {
+        // Redirecting to a search page with the query as a URL parameter
+        window.location.href = "/Search?query=" + encodeURIComponent(query);
+    } else {
+        alert("Please enter a search term.");
+    }
+});

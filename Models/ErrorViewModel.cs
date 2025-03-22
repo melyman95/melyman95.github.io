@@ -1,4 +1,4 @@
-namespace melyman95.github.io.Models
+namespace ParadigmPetProfessionals.Models
 {
     public class ErrorViewModel
     {

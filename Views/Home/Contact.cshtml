@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Contact us";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="contactinfo">
+    <div class="name">
+        <p>Name:</p> <input type="text"  id="name" name="name"/>
+    </div>
+    <div class="email">
+        <p>E-mail address:</p> <input type="text" id="email" name="email" />
+    </div>
+    <div class="phone">
+        <p>Phone Number:</p> <input type="text" id="phone" name="phone" />
+    </div>
+    <div class="timezone">
+        <p>Time Zone:</p> <input type="text" id="timezone" name="timezone" />
+    </div>
+    <div class="petinfo">
+        <p>Pet's name:</p> <input type="text" id="petname" name="petname" />
+        <p>Pet's age</p> <input type="text" id="petage" name="petage" />
+        <p>Pet type</p> <input type="text" id="pettype" name="pettype" />
+    </div>
+    <div class="submit">
+        <input type="submit" value="Submit" />
+    </div>
+</div>
+
+<div class="cat2">
+    <img src="~/people.jpg" style="max-height: 500px; max-width: 500px;" />
+    <img src="~/cat2.jpg" style="max-height: 500px; max-width: 500px;" />
+</div>
