@@ -1,5 +1,7 @@
 html {
   font-size: 14px;
+  display: flex;
+    flex-direction: column;
 }
 
 @media (min-width: 768px) {
@@ -8,39 +10,24 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
+html, body {
     margin-bottom: 60px;
     background-color: #6699CC;
-}
-
-.ppplogo {
-    float: right; 
-}
-
-.balloondog {
-    float: right;
-}
-
-.submit {
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     background-color: #676767;
+    flex: auto;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
 }
 
 footer {
     background-color: #676767;
-    padding: 5px;
+    padding: 10px;
+    margin-top: auto;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
 }
 
 p {
@@ -59,22 +46,12 @@ h1 {
 
 nav {
     background-color: dimgray;
-}
-
-.container {
-    color: silver;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+    padding: 6px;
 }
 
 a{
     color: 6699CC;
-}
-
-.border-top footer text-muted {
-    color: silver;
-}
-
-.info {
-    color: black;
 }
 
 form {
