@@ -8,7 +8,3 @@
         alert("Please enter a search term.");
     }
 });
-
-document.getElementById("submit").addEventListener("click", function() {
-    alert("Your consultation request has been successfully submitted!");
-});

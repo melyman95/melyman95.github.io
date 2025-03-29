@@ -31,7 +31,7 @@
         <br>
         <label for="pettype">Pet Type</label><br>
         <input type="text" id="pettype" name="type"><br>
-        <button type="button" id="submit">Submit</button>
+        <button type="submit" id="submitButton">Submit</button>
     </form>
     <div class="pics">
         <img src="wwwroot/ppplogo.jpg" alt="Paradigm Logo">
@@ -40,5 +40,11 @@
         <h2>&copy; 2025 Paradigm Pet Professionals</h2>
     </footer>
     <script src="wwwroot/js/site.js" async defer></script>
+
+    <script>
+        document.getElementById("submitButton").addEventListener('click', function() {
+            alert("Your consultation request has been successfully submitted!");
+        });
+    </script>
 </body>
 </html>
