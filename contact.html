@@ -48,7 +48,19 @@
 
     <script>
         document.getElementById("submitButton").addEventListener('click', function() {
-            alert("Your consultation request has been successfully submitted!");
+
+            let fullName = document.getElementById("fullname").value.trim();
+            let phoneNumber = document.getElementById("phone").value.trim();
+            let type = document.getElementById("pettype").value.trim();
+
+            console.log(fullName + " " + phoneNumber + " " + type);
+
+            if (fullName && phoneNumber && type) {
+                alert("Consultation submitted successfully!")
+            }
+            else {
+                alert("One or more fields are invalid!")
+            }
         });
 
         document.getElementById("submitFetch").addEventListener('click', function() {

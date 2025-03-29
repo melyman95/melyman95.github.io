@@ -8,3 +8,7 @@
         alert("Please enter a search term.");
     }
 });
+
+function isStringEmpty(value) {
+    return value === undefined || value === null || value === "";
+}
