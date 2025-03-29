@@ -48,6 +48,7 @@ nav {
     background-color: dimgray;
     box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
     padding: 6px;
+    text-align: left;
 }
 
 a{
@@ -61,4 +62,9 @@ form {
 .pics {
     text-align: center;
     padding: 10px;
+}
+
+.fetch {
+    text-align: right;
+    flex: auto;
 }
