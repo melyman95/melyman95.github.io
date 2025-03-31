@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "timezone-select-js": "^2.0.1"
+  }
+}
